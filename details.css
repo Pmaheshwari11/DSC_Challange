@@ -1,0 +1,310 @@
+/* Navbar */
+
+.navbar {
+    background-color: #ffffff;
+    backdrop-filter: brightness(10%);
+  }
+    
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .items {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Merriweather";
+    color: #9502b3;
+  }
+  
+  .items:hover {
+    color: #0075a3;
+  }
+  
+  .navbar-btn {
+    height: 50px;
+  }
+
+  .DSC-logo {
+    height: 8rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .alert {
+    font-size: 1.2rem;
+    background-color: rgb(255, 246, 149);
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: aqua;
+  }
+
+  .alert-link:hover {
+    color: #9502b3;
+  }
+  /* Text */
+  
+  .carousel-heading {
+    font-size: 6rem;
+    color: black;
+    margin-bottom: 0;
+    backdrop-filter: brightness(30%);
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  }
+
+  .guest_name {
+    font-size: 4rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .schedule {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  p {
+    font-size: 2rem;
+    backdrop-filter: brightness(30%);
+    padding: 1rem 0;
+  }
+  
+  p.carousel-para {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+  /* Event Detail Page */
+  
+  body {
+    background-image: url(Images/bg-details.jpg);
+    text-align: center;
+    color: white;
+  }
+  
+  #carouselExampleIndicators{
+    padding: 4% 15%;
+    height: 35rem;
+  }
+  
+  .feature-box-1 {
+    padding: 0 1rem;
+    margin: 2rem 0;
+    border-style: dashed;  
+    border-color: #ffffff;
+    border-width: 0.1rem;
+  }
+
+  .feature-box-2 {
+    padding: 0 1rem;
+    margin: 2rem 0;
+    border-style: dashed;  
+    border-color: #ffffff;
+    border-width: 0.1rem;
+  }
+  
+  .carousel-logo {
+    height: 100px;
+    padding: 1rem 1rem;
+  }
+  
+  
+  /* Center text  */
+  
+  
+  .centre {
+    text-align: center;
+    backdrop-filter: brightness(90%);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  
+  
+  @media screen and (min-width:360px) and (max-width:500px) {
+  
+    
+    /* Navbar */
+    
+  
+  .items {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-btn {
+    height: 40px;
+  }
+  
+  .DSC-logo {
+    height: 5rem;
+  }
+  
+  /* Text */
+
+  
+  .carousel-heading {
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 0;
+    backdrop-filter: brightness(30%);
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  }
+
+  
+  .guest_name {
+    font-size: 3rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #ffffff;
+  }
+  
+  .schedule {
+    font-size: 2.6rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    backdrop-filter: brightness(100%);
+  }
+  
+  p {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    backdrop-filter: brightness(100%);
+  }
+  
+  .guest-para {
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 1rem;color: #ffffff;
+  }
+  
+  
+  /* Event Detail Page */
+  
+  body {
+    background-image: url(Images/bg-details-ph.jpg);
+  }
+  
+  #carouselExampleIndicators{
+    height: 50rem;
+  }
+
+  .feature-box-1 {
+    padding: 0 1rem;
+    margin: 2rem 0;
+    border-style: dashed;  
+    border-color: #ffffff;
+    border-width: 0.1rem;
+  }
+
+  .feature-box-2 {
+    padding: 0 1rem;
+    margin: 0 0;
+    border-style: dashed;  
+    border-color: #ffffff;
+    border-width: 0.1rem;
+  }
+  
+  .carousel-logo {
+    height: 80px;
+    padding: 1rem 1rem;
+  }
+  
+
+  /* Center text  */
+  
+  .centre {
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+}
+  
+  @media screen and (min-width: 700px) and (max-width:950px) {
+    /* Navbar */
+    
+  
+  .items {
+    font-size: 2rem;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #9502b3;
+    border-radius: 20%;
+  }
+  .DSC-logo {
+    height: 7rem;
+  }
+  
+  /* Text */
+  
+  
+  .carousel-heading {
+    font-size: 3.7rem;
+    backdrop-filter: brightness(30%);;
+  }
+  
+  .guest_name {
+    font-size: 3rem;
+    color: #ffffff;
+  }
+  
+  .schedule {
+    font-size: 2.6rem;
+  }
+  
+  p {
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    backdrop-filter: brightness(80%);
+  }
+  
+  .guest-para {
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 1rem;
+    backdrop-filter: brightness(80%);
+    color: #ffffff;
+  }
+  
+ 
+  /* Event Detail Page */
+  
+  .carousel-logo {
+    height: 100px;
+    padding: 1rem 1rem;
+  }
+
+  #carouselExampleIndicators{
+    height: 50rem;
+  }
+
+  .feature-box-1 {
+    padding: 0 1rem;
+    margin: 2rem 0;
+    border-style: dashed;  
+    border-color: #ffffff;
+    border-width: 0.1rem;
+  }
+
+  .feature-box-2 {
+    padding: 0 1rem;
+    margin: 2rem 0;
+    border-style: dashed;  
+    border-color: #ffffff;
+    border-width: 0.1rem;
+  }
+  
+}

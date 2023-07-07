@@ -1,0 +1,281 @@
+/* Navbar */
+
+.navbar {
+  background-color: #ffffff;
+  backdrop-filter: brightness(10%);
+}
+  
+.nav-item {
+  padding: 0 18px;
+}
+
+.items {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Merriweather";
+  color: #9502b3;
+}
+
+.items:hover {
+  color: #0075a3;
+}
+
+.navbar-btn {
+  height: 50px;
+}
+
+/* Button  */
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: aqua;
+}
+
+.btn-lg {
+  margin: 3rem 0 2.2rem;
+  width: 12rem;
+  background-color: #0075a3;
+  animation: blinking 3s ease infinite;
+}
+
+.btn-lg:hover {
+  background-color: #9502b3 !important;
+  color: aqua;
+  animation-play-state: paused;
+}
+
+/* Text */
+
+.big-heading {
+  font-size: 6rem;
+  color: #ffffff;
+}
+
+.drop {
+  animation: drop 1.2s linear forwards 0.2s;
+}
+
+.flicker {
+  animation: text-flicker 4s linear infinite 1.5s;
+  opacity: 0;
+}
+
+
+.small-heading {
+  font-size: 3.5rem;
+  font-style: italic;
+  color: #9502b3;
+  animation: slide-in-anim 0.7s ease-out forwards;
+}
+
+/* Animation */
+
+/* for drop  */
+
+@keyframes drop {
+  0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+  5% {opacity: .7;}
+  50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+  65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+  75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+  100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+}
+
+/* For Flicker */
+
+@keyframes text-flicker {
+  0% {
+    opacity:0;
+    text-shadow: -1px -1px 0 #000;
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: -1px -1px 0 #000;
+  }
+  8% {
+    opacity:0.1;
+    text-shadow: -1px -1px 0 #000;
+  }
+  9% {
+    opacity:1;
+    text-shadow: -1px -1px 0 #000;
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: -1px -1px 0 #000;
+  }
+  20% {
+    opacity:1;
+    text-shadow: -1px -1px 0 #000
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: -1px -1px 0 #000
+  }
+  30% {
+    opacity:1;
+    text-shadow: -1px -1px 0 #000
+  }
+  
+  70% {
+    opacity:0.7;
+    text-shadow: -1px -1px 0 #000
+  }
+  
+  72% {
+    opacity:0.2;
+   text-shadow: -1px -1px 0 #000
+  }
+  
+  77% {
+    opacity:.9;
+    text-shadow: -1px -1px 0 #000
+  }
+  100% {
+    opacity:.9;
+    text-shadow: -1px -1px 0 #000
+  }
+}
+
+
+/* for slide in  */
+
+@keyframes slide-in-anim {
+	20% {
+		transform: translateX(100%);
+	}
+	60% {
+		transform: translateX(80%);
+	}
+	75% {
+		transform: translateX(50%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+/* for button */
+
+@keyframes blinking {
+  0% {background-color: #0075a3;}
+  25% {background-color: #9502b3;}
+  50% {background-color: #0075a3;}
+  75% {background-color: #9502b3;}
+  100% {background-color: #0075a3;}
+}
+
+/* Home Page */
+
+body {
+  background-image: url(Images/bg-home.jpg);
+}
+
+.DSC-logo {
+  height: 8rem;
+}
+
+
+
+/* Center text  */
+
+.centre {
+  text-align: center;
+  backdrop-filter: brightness(90%);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+
+@media screen and (min-width:360px) and (max-width:500px) {
+
+  body {
+    background-image: url(Images/bg-home.jpg);
+    background-position: 50%;
+  }
+  
+  /* Navbar */
+  
+
+.items {
+  font-size: 1.5rem;
+}
+
+.navbar-btn {
+  height: 40px;
+}
+
+/* Text */
+
+.big-heading {
+  font-size: 4rem;
+}
+
+.small-heading {
+  font-size: 2.7rem;
+}
+
+/* Home Page */
+
+.DSC-logo {
+  height: 5rem;
+}
+
+
+/* Center text  */
+
+.centre {
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+}
+
+@media screen and (min-width: 700px) and (max-width:950px) {
+  /* Navbar */
+  
+
+.items {
+  font-size: 2rem;
+}
+
+.navbar-btn {
+  height: 50px;
+}
+
+/* Text */
+
+.big-heading {
+  font-size: 4.8rem;
+}
+
+
+.small-heading {
+  font-size: 3.2rem;
+}
+
+/* Home Page */
+
+.DSC-logo {
+  height: 7rem;
+}
+
+body {
+  background-image: url(Images/bg-home.jpg);
+  background-position: 50%;
+}
+
+/* Center text  */
+
+.centre {
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+}
